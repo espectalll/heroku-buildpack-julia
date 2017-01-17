@@ -55,6 +55,6 @@ cd $BUILD_DIR
 $JULIA_VERSION/bin/julia package.jl
 
 mv ~/.julia ./
-ln -s $JULIA_VERSION/bin/julia bin/julia
+ln -sr $JULIA_VERSION/bin/julia bin/julia
 
 echo "Julia successfully installed"
